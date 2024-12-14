@@ -301,16 +301,15 @@ button:active {
     transform: scale(1.05);
 }
 
-/* Responsive styles for installation cards */
 @media (max-width: 768px) {
     .slider-item {
-        width: 48%; /* Two cards per row on smaller screens */
+        width: 48%;
     }
 }
 
 @media (max-width: 480px) {
     .slider-item {
-        width: 100%; /* Stack all cards on top of each other for very small screens */
+        width: 100%;
     }
 }
 
