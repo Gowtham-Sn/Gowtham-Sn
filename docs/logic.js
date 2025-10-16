@@ -14,7 +14,7 @@ var loadCSS = function() {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.className = 'nrv-style';
-    link.href = 'https://github.com/Gowtham-Sn/Gowtham-Sn/blob/main/docs/ExtCss/bookmark.css';
+    link.href = 'https://cdn.jsdelivr.net/gh/Gowtham-Sn/Gowtham-Sn@main/docs/ExtCss/bookmark.css';
     document.head.appendChild(link);
 };
 
